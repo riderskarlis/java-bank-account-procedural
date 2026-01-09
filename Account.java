@@ -1,5 +1,5 @@
 class Account {
-    double balance;
+    private double balance;
 
     public Account(double balance) {
         this.balance = balance;
