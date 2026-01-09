@@ -6,7 +6,7 @@ class Account {
     }
 
     public void deposit(double sum) {
-        if (sum > 0) {
+        if (sum <= 0) {
             System.out.println("\nSummai jābūt pozitīvai");
         } else {
             this.balance += sum;
@@ -23,7 +23,7 @@ class Account {
         }
     }
 
-    public void balance() {
-        return this.balance;
+    public double balance() {
+        return (double) this.balance;
     }
 }
