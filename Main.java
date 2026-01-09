@@ -3,6 +3,7 @@ import java.util.Scanner;
 class Main {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        Account acc = new Account(0);
         double balance = 0.0;
 
         System.out.println("Internetbanka!");
